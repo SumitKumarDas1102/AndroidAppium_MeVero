@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+
+		<listener class-name="extentlisteners.ExtentListeners" />
+
+	</listeners>
+
+
+<!--
+	<test thread-count="5" name="SplashScreen">
+		<classes>
+			<class name="testCases.SplashScreenTest" />
+		</classes>
+	</test> 
+
+	<test thread-count="5" name="HomePage">
+		<classes>
+			<class name="testCases.HomePageTest" />
+		</classes>
+	</test>  
+
+
+	<test thread-count="5" name="SignUp">
+		<classes>
+			<class name="testCases.SignUpTest" />
+		</classes>
+	</test> 
+	
+
+
+	<test thread-count="5" name="ProfileInfoTest">
+		<classes>
+			<class name="testCases.ProfileInfoTest" />
+		</classes>
+	</test> 
+
+	<test thread-count="5" name="WritePostTest">
+		<classes>
+			<class name="testCases.WritePostTest" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="WritePostWithImageTest">
+		<classes>
+			<class name="testCases.WritePostWithImageTest" />
+		</classes>
+	</test>
+	
+	-->
+	<test thread-count="5" name="NewLoginTest">
+		<classes>
+			<class name="testCases.NewLoginTest" />
+		</classes>
+	</test>
+	
+</suite> <!-- Suite -->
+
+
+	
+	
